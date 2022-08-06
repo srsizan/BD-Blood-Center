@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutUs"
+    android:background="#9C2020">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/au"/>
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About Us"
+            android:background="?android:attr/colorBackground"
+            android:textColor="#750505"
+            android:textStyle="bold"
+            android:textSize="25dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/au1"/>
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Thank you for taking the time. We are here to help you. This is an app that can save many lives.Very easy to use!"
+            android:textColor="#F7FAF8"
+            android:textStyle="bold"
+            android:textSize="25dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:layout_marginLeft="130dp"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/au2"/>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="It makes 7% of human's body weight. Each donation helps to save at least 3 lives. ... Donating blood is a noble cause and a selfless act which helps save lives. Giving your blood to someone in need is a gift, and just as important as donating organs since it's like offering someone a chance at life."
+            android:textColor="#F7FAF8"
+            android:textStyle="bold"
+            android:textSize="25dp"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:layout_marginLeft="150dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/team"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="@string/textformat"
+            android:textColor="#F7FAF8"
+            android:textStyle="bold"
+            android:textSize="25dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:layout_marginLeft="150dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/leaf"/>
+    </LinearLayout>
+        <TextView
+            android:id="@+id/backau"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="55dp"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:text="Home"
+            android:textColor="#680404"
+            android:background="#F8F5F6"
+            android:layout_gravity="right"/>
+    </LinearLayout>
+</ScrollView>

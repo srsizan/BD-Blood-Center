@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HealthTips"
+    android:background="#DCA7A7">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/ht"/>
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Health Tips"
+                android:textColor="#2E0202"
+                android:textStyle="bold"
+                android:textSize="25dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:layout_marginLeft="130dp"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/ht3"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/textformat1"
+                android:textColor="#0E0E0E"
+                android:textStyle="bold"
+                android:textSize="25dp"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:layout_marginLeft="150dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ht2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="@string/textformat2"
+                android:textColor="#090909"
+                android:textStyle="bold"
+                android:textSize="25dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:layout_marginLeft="150dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/leaf"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/backht"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="55dp"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:text="Home"
+            android:textColor="#680404"
+            android:background="#EC88A9"
+            android:layout_gravity="right"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,61 @@
+<resources>
+<string name="app_name">My Blood Bank</string>
+
+<string name="textformat">
+        <br>This app was created by a team of three students of East West University.\n</br>
+        <br>i.Samiun Rahman Sizan\n</br>
+        <br>ID:2018-2-60-124\n</br>
+        <br>ii.Shahriar Chowdhury\n</br>
+        <br>ID:2018-2-60-021\n</br>
+        <br>iii.Rabea Akhter\n</br>
+        <br>ID:2019-1-60-073\n</br>
+    </string>
+<string-array name="Division">
+    <item>DHAKA</item>
+    <item>CHITTAGONG</item>
+    <item>RAJSHAHI</item>
+    <item>BARISHAL</item>
+    <item>SYLHET</item>
+    <item>KHULNA</item>
+    <item>MYMENSINGH</item>
+    <item>RANGPUR</item>
+</string-array>
+
+
+<string-array name="BloodGroup">
+    <item>O+</item>
+    <item>A+</item>
+    <item>B+</item>
+    <item>AB+</item>
+    <item>A-</item>
+    <item>B-</item>
+    <item>AB-</item>
+    <item>O-</item>
+</string-array>
+<string name="textformat1">
+        <br>Before your blood donation:\n</br>
+         <br>\n</br>
+        <br>1.Get plenty of sleep the night before you plan to donate.\n</br>
+        <br>2.Eat a healthy meal before your donation.\n</br>
+        <br>3.Drink plenty of water before the donation.\n</br>
+        <br>4.Check to see if any medications you are taking or recently took would prevent you from donating.\n</br>
+        <br>5.Wear a shirt with sleeves that can be rolled up.\n</br>
+        <br>\n</br>
+    </string>
+<string name="textformat2">
+        <br>After your blood donation:\n</br>
+         <br>\n</br>
+        <br>1.Avoid strenuous physical activity or heavy lifting for about five hours.\n</br>
+        <br>2.If you feel lightheaded, lie down with your feet up until the feeling passes.\n</br>
+        <br>3.Keep your bandage on and dry for the next five hours.\n</br>
+        <br>4.If you have bleeding after removing the bandage, put pressure on the site and raise your arm until the bleeding stops.\n</br>
+        <br>5.If bruising occurs, apply a cold pack to the area periodically during the first 24 hours.\n</br>
+        <br>6.Consider adding iron-rich foods to your diet to replace the iron lost with blood donation.\n</br>
+        <br>\n</br>
+        <br>Contact the blood donor center or your doctor if you:\n</br>
+        <br>1.Forgot to report any important health information.\n</br>
+        <br>2.Have signs and symptoms of an illness, such as a fever, within several days after your blood donation.\n</br>
+        <br>3.Are diagnosed with COVID-19 within 48 hours after donating blood.\n</br>
+    </string>
+
+</resources>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#BA1414"
+    tools:context=".HomeActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+
+        android:padding="16dp"
+        android:gravity="center"
+        android:background="@drawable/bdonation">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="100dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Give Blood"
+                android:textStyle="bold"
+                android:textSize="27dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="0dp">
+
+            </TextView>
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save lifes of many!!!"
+            android:layout_marginLeft="5dp"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+                android:textStyle="bold"
+            android:layout_marginBottom="30dp">
+
+        </TextView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_margin="5dp">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:id="@+id/buttonUpdate"
+                    android:clickable="true"
+                    android:layout_height="60dp"
+                    android:gravity="center"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:text="Update Profile"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="@color/purple_200" />
+
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/buttonSearch"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    android:text="Search Donor"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="@color/purple_200"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_margin="5dp"
+                android:layout_marginBottom="50dp">
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/buttonAboutUs"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    android:text="About Us"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="@color/purple_200"/>
+
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/buttonHealthTips"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    android:text="Health Tips"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="@color/purple_200"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_margin="5dp"
+                android:layout_marginBottom="50dp">
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/buttonHelp"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:text="Help Post"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="@color/purple_200"/>
+
+
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/buttonLogOut"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    android:text="Log Out"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="@color/purple_200"/>
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>

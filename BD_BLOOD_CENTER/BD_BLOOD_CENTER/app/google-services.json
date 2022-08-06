@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "451775983266",
+    "project_id": "my-blood-bank-bdbbb",
+    "storage_bucket": "my-blood-bank-bdbbb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:451775983266:android:1bb949890c70df7318b1fb",
+        "android_client_info": {
+          "package_name": "edu.ewubd.mybloodbank"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "451775983266-nl4mf01rt2c123ke18bmhfsrrmb4jvko.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXJRWZtP_zQdaI3MjPtvM2_3yH9IrcDoI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "451775983266-nl4mf01rt2c123ke18bmhfsrrmb4jvko.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_search_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#530A0A"
+    android:orientation="vertical"
+    tools:context=".Create">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_red_dark"
+        android:text="Ask For Help!!"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/ethelp"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:hint="Ask for help!! Let people know!"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginTop="20dp"
+        android:inputType="textCapWords"
+        android:background="#CF8888"/>
+
+
+    <Button
+        android:id="@+id/btnpost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:background="@android:color/holo_red_dark"
+        android:text="Post"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:clickable="true"/>
+
+
+    <Button
+        android:id="@+id/backcreate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="45dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Back"
+        android:clickable="true"
+        android:textColor="@color/black"
+        android:background="@android:color/holo_red_dark"
+        android:layout_gravity="right"/>
+
+</LinearLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_search_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C84D45"
+    android:orientation="vertical"
+    tools:context=".SearchActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/b" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_red_dark"
+        android:text="Find Donor"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etbg"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:inputType="textCapCharacters"
+        android:background="@android:color/background_light"/>
+    <TextView
+        android:id="@+id/tvbg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_dark"
+        android:text="Blood Group"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:layout_marginLeft="5dp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/etsv"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:inputType="textCapCharacters"
+        android:background="@android:color/background_light"/>
+
+    <TextView
+        android:id="@+id/tvarea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_dark"
+        android:text="Area"
+        android:layout_marginLeft="5dp"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+
+    <Button
+        android:id="@+id/btnsearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:background="@android:color/holo_red_dark"
+        android:text="Search"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:clickable="true"/>
+
+
+    <Button
+        android:id="@+id/backsearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="120dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Home"
+        android:clickable="true"
+        android:textColor="@color/black"
+        android:background="@android:color/holo_red_dark"
+        android:layout_gravity="right"/>
+
+</LinearLayout>
